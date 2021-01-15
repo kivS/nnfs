@@ -10,5 +10,5 @@ weights = [0.2, 0.8, -0.5, 1.0]
 bias = 2.0
 
 
-output = np.dot(inputs, weights) + bias
+output = np.dot(weights, inputs) + bias
 print(output)
